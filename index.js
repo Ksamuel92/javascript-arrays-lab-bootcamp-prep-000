@@ -22,17 +22,17 @@ function destructivelyRemoveFirstKitten () {
 }
 
 function appendKitten (name) {
-  return newArray = [...kittens, name];}
+  return var newArray = [...kittens, name];}
 
 function prependKitten (name) {
-  return newArray = [name, ...kittens];
+  return var newArray = [name, ...kittens];
 }
 
 function removeLastKitten () {
- return newArray = kittens.slice(0, kittens.length - 1);
+ return var newArray = kittens.slice(0, kittens.length - 1);
 }
 
 function removeFirstKitten () {
-  return newArray = kittens.slice(0,1);
+  return var newArray = kittens.slice(0,1);
 }
 
